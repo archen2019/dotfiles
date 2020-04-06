@@ -33,6 +33,8 @@ walfeh() {
 
 alias ls='ls --color=auto'
 
+export LD_LIBRARY_PATH='/usr/local/lib'
+
 setopt HIST_FIND_NO_DUPS
 
 # create a zkbd compatible hash;
